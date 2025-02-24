@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        window.onload = function() {
+            var referralCode = "110480RQ";
+            var downloadUrl = "https://desawarbazar.com/apk/v2/dbApp.apk";// Redirect to download URL
+        window.location.href = downloadUrl + "?ref=" + referralCode;
+    };
+</script>
+
+</head>
+<body>
+    <h2>Redirecting to Bazar App...</h2>
+    <p>If you are not redirected automatically, <a id="downloadLink" href="#">click here</a>.</p>
+    <script>
+        document.getElementById("downloadLink").href = "https://desawarbazar.com/apk/v2/dbApp.apk?ref=110480RQ";
+    </script>
+</body>
+</html>
